@@ -82,3 +82,24 @@ i {
 }
 
 /* my plans */
+.plan {
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.column {
+  text-align: center;
+}
+.column h3 {
+  color: #151414;
+  font-size: 30px;
+  font-weight: 700;
+  margin: 20px 0;
+}
+.column p {
+  color: #737272;
+  font-size: 25px;
+  font-weight: 500;
+}
