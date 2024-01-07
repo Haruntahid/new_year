@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+.header {
+  background-image: url("../images/banner/banner2.png");
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 800px;
+}
+.head_sec {
+  padding-top: 220px;
+  max-width: 525px;
+  float: right;
+  text-align: right;
+}
+.head_sec h1 {
+  color: #151414;
+  font-size: 65px;
+  font-weight: 700;
+}
+.head_sec > p {
+  color: #444343;
+  margin: 20px 0 30px 0;
+}
+.container {
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.btn {
+  padding: 20px 25px;
+  font-size: 20px;
+  font-weight: 700;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+
+.contact_btn {
+  background-color: #f15b22;
+  color: #fff;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* main */
+.main {
+  padding: 120px 0;
+}
+.column_right {
+  max-width: 415px;
+}
+.column_right p {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  color: #444343;
+  line-height: 26px;
+}
+.column_right h2 {
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+}
+.column_right ul {
+  list-style-type: none;
+}
+.column_right ul li {
+  color: #444343;
+  line-height: 26px;
+}
+i {
+  color: #16d887;
+  margin-right: 10px;
+}
+
+/* my plans */
