@@ -103,3 +103,35 @@ i {
   font-size: 25px;
   font-weight: 500;
 }
+
+/* positive mindset */
+#positive {
+  margin-top: 120px;
+}
+.main_positive {
+  background-image: linear-gradient(
+      90deg,
+      #f15b22 0%,
+      rgba(241, 91, 34, 0) 100%
+    ),
+    url("../images/watch.png");
+  padding: 60px;
+  border-radius: 10px;
+}
+.main_positive h3 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+}
+.common_btn {
+  padding: 20px 36px;
+  color: #f15b22;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 5px;
+  background-color: #fff;
+  border: none;
+}
+.call_btn {
+  margin-top: 24px;
+}
