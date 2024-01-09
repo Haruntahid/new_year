@@ -135,3 +135,55 @@ i {
 .call_btn {
   margin-top: 24px;
 }
+/* footer */
+#footer {
+  margin-top: 120px;
+  padding: 130px 0;
+  background-color: #151414;
+}
+.footer_row {
+  display: flex;
+  justify-content: space-between;
+}
+.left_col {
+  max-width: 485px;
+}
+.left_col h2 {
+  color: #f8f8f8;
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.left_col p {
+  color: #fff;
+  font-size: 16px;
+  line-height: 26px;
+}
+.mail {
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+.social {
+  margin-top: 32px;
+}
+.social img {
+  margin-right: 12px;
+}
+.right_col h2 {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+}
+.right_col > input {
+  padding: 22px;
+  font-size: 18px;
+  border-radius: 8px;
+  border: 1px solid #fff;
+  background-color: transparent;
+  color: #f3f3f3;
+  margin-top: 30px;
+  margin-bottom: 16px;
+}
+.right_col input:focus {
+  outline: none;
+}
